@@ -419,7 +419,7 @@ $(document).ready(function() {
     fxheader(),
     scrolling(),
     databgcolor(),  
-    contactform(),
+    // contactform(),
     progressbar(),
     search(),
     countdown();
