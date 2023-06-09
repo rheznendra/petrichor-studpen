@@ -1,0 +1,460 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan",
+                "holla",
+                "bang",
+                "kak",
+                "mimin"
+            ],
+            "responses": [
+                "Hai! Petribo di sini. Mau tau informasi tentang apa nih?",
+                "Halo! Saya Petribo, salam kenal ya!",
+                "Helo! Ini Petribo, saya lagi bosan nih, ingin tanya apa?",
+                "Holla! ini Petribo, kalau mau ingin lebih tau tanya ke Petribo ya!"
+            ]
+        },
+        {
+            "tag": "Petribo",
+            "patterns": [
+                "Apa itu Petribo?",
+                "Siapa Petribo?"
+            ],
+            "responses": [
+                "Petribo adalah singkatan dari Kelompok Satu Chatbot, aku ini akan memberikan informasi tentang posisi keberadaan BTS atau Base Transceiver Tower khususnya di kota Padang bedasarkan data-data yang ada",
+                "Petribo itu adalah teman informasi Seputar Posisi Keberadaan BTS dan Letak dimana Posisi BTS tersebut.",
+                "Petribo adalah mimin, mimin adalah Petribo."
+            ]
+        },
+        {
+            "tag": "pencipta_Petribo",
+            "patterns": [
+                "Siapa pembuatmu teman?",
+                "Petribo, yang buat kamu siapa sih?",
+                "Siapa penciptamu, Petribo?",
+                "Siapasih yang membuat kamu ini?"
+            ],
+            "responses": [
+                "Petribo diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+                "Pembuat Petribo dari kalangan mahasiswa dan mahasiswi lho! salam hangat^^",
+                "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!",
+                "Penciptaku ini sangat berhati mulia dan senang hati menjawab pertanyaan kalian^^"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "Byee",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "Bai",
+                "See you",
+                "Seee yaa"
+            ],
+            "responses": [
+                "Bye!",
+                "Dadahh!",
+                "Good bye!",
+                "Dahh, semoga harimu menyenangkan yaa!",
+                "Sampai jumpa lagi!",
+                "See u! Senang bisa membantu",
+                "Hehe dadah^^"
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak"
+            ],
+            "responses": [
+                "Dengan senang hati :)",
+                "Sama-sama yaa",
+                "Datang lagi ya ke Petribo^^"
+            ]
+        },
+        {
+            "tag": "basa-basi1_user_ke_Petribo",
+            "patterns": [
+                "aku ingin nanya nih",
+                "aku ingin tanya seputar apliksi ini",
+                "aku mau ngasih pertanyaan ke kamu ini",
+                "aku nanya seputar aplikasi ini",
+                "aku mau nanya tentang aplikasi bts ini",
+                "Nanya nich",
+                "Nanya nih",
+                "Mau nanya nih",
+                "Saya mau menanyakan beberapa hal.",
+                "Saya ingin menanyakan beberapa hal"
+
+            ],
+            "responses": [
+                "Apa itu?",
+                "oke, saya Petribo akan jawab pertanyaan kamu nih.... tentang apa?",
+                "Pertanyaan apa itu?",
+                "Tentu, silakan tanyakan! Saya Petribo membantu Anda dengan pertanyaan apa pun yang Anda tanyakan. Apa yang ingin Anda ketahui?"
+            ]
+        },
+        {
+            "tag": "penjelasan_seputar1(pengertian)_bts",
+            "patterns": [
+                "Apa itu BTS atau Base Transceiver Station?",
+                "Apa itu BTS?",
+                "BTS?",
+                "Apa itu bts?",
+                "Apa itu tower?",
+                "Tower?",
+                "Coba jelaskan apa itu BTS?",
+                "Coba jelaskan apa yang dimaksud dengan BTS",
+                "Bagaimana menurutmu tentang BTS itu?",
+                "Menurutmu apa itu BTS",
+                "Menurutmy apa itu Tower"
+            ],
+            "responses": [
+                "Base Transceiver Station atau disingkat BTS adalah sebuah infrastruktur telekomunikasi yang memfasilitasi komunikasi nirkabel antara peranti komunikasi dan jaringan operator.",
+                "Base Transceiver Station atau disingkat BTS adalah sebuah infrastruktur telekomunikasi yang memfasilitasi komunikasi nirkabel antara peranti komunikasi dan jaringan operator."
+            ]
+        },
+        {
+            "tag": "penjelasan_seputar2(fungsi)_bts",
+            "patterns": [
+                "Fungsi bts itu apa?",
+                "Fungsi BTS itu apa?",
+                "fungsi tower itu apa?",
+                "fungsinya apa?",
+                "Coba jelaskan fungsi bts itu apa?",
+                "Coba jelaskan bagaimana fungsi tower sinyal?",
+                "Coba jelaskan fungsi tower itu?",
+                "Menurut kamu fungsi tower atau BTS itu apa?"
+            ],
+            "responses": [
+                "Fungsi BTS atau tower itu bertanggung jawab untuk menerima dan mentransmisikan atau menyalurkan sinyal radio antara perangkat seluler (seperti ponsel) dan jaringan seluler. Ini berarti BTS memungkinkan pengguna untuk melakukan panggilan suara, mengirim pesan teks, mengakses internet, dan menggunakan layanan data lainnya."
+            ]
+        },
+        {
+            "tag": "penjelasan_seputar3(Ketinggian)_bts",
+            "patterns": [
+                "Tinggi Bts berapa?",
+                "Menurut kamu tinggi bts atau tower itu berapa?",
+                "Menurut kamu tinggi tower itu berapa?",
+                "Ukuran tinggi bts berapa?",
+                "Terus bagaimana menurutmu tinggi tower itu?",
+                "tingginya tower itu berapa?",
+                "tinggi tower menurutmu kisaran berapa?",
+                "Rekomendasi tinggi tower itu kisaran berapa?",
+                "Rekomendasi tinggi tower?"
+
+            ],
+            "responses": [
+                "Rata rata tinggi bts itu kisaran 10 sampai 30 meter"
+            ]
+        },
+        {
+            "tag": "penjelasan_seputar4(Penempatan BTS)_bts",
+            "patterns": [
+                "letak bts gimana??",
+                "Trus dimana bts itu diletakan?",
+                "Terus dimana bts itu diletakan?",
+                "Rekomendasi letak bts?",
+                "Rekomendasi posisi bts",
+                "Tower bts itu letaknya dimana?",
+                "Dimana Penempatan tower itu?",
+                "Dimana letak bts itu berada?",
+                "Menurutmu letak BTS itu dimana?",
+                "Menurutmu letak BTS itu dimana ya?",
+                "Apakah ada persayaratan penempatan tower?",
+                "Apa ada syarat letak tower?",
+                "Apa syarat penempatan BTS?"
+
+            ],
+            "responses": [
+                "Tempat rekomendasi penempataan bts itu harus ruangan terbuka, bts tidak boleh terhalang pada bangunan atau daerah yang menutupi arah pancarannya karena akan merusak sinyal yang akan ditransfernya atau "
+            ]
+        },
+        {
+            "tag": "penjelasan_aplikasi_pendeteksi_bts",
+            "patterns": [
+                "Jelaskan untuk apa aplikasi ini digunakan?",
+                "Apa gunanya aplikasi ini?",
+                "Apa guna aplikasi ini",
+                "Terus gunanya apa?",
+                "Trus guna aplikasi ini apa?",
+                "coba kamu jelaskan aplikasi ini deh",
+                "jelaskan",
+                "Jelaskan aplikasi ini",
+                "Guna aplikasi ini apa?",
+                "Fungsi aplikasi ini apa?",
+                "Coba jelaskan fungsi aplikasi ini?",
+                "Klasifikasikan aplikasi ini?",
+                "Coba Klasifikasikan aplikasi ini?"
+            ],
+            "responses": [
+                "Aplikasi ini digunakan untuk memprediksi lokasi atau posisi letak dimana tower atau BTS yang digunakan khususnya di Kota Padang."
+            ]
+        },
+        {
+            "tag": "Cara_menggunakan_aplikasi_prediksi_bts",
+            "patterns": [
+                "Bagaimana cara menggunakan aplikasi ini?",
+                "Bagaimana cara memakai aplikasi ini",
+                "Cara makenya gimana?",
+                "makai aplikasi ini gimana?",
+                "trus makai ni aplikasi gimana?",
+                "Gunainnya gimana?",
+                "Terus cara pakai aplikasi ini gimana?"
+            ],
+            "responses": [
+                "Menggunakan aplikasi ini harus menyiapkan data latitude dan longitude khusus di kota Padang, Kemudian memberikan data tinggi, Kemudian aplikasi akan memprediksi dimana Posisi BTS di Kota Padang",
+                "Menggunakan aplikasi ini harus menyiapkan data latitude dan longitude khusus di kota Padang, Kemudian memberikan data tinggi, Kemudian aplikasi akan memprediksi dimana Posisi BTS di Kota Padang"
+            ]
+        },
+        {
+            "tag": "persyaratan_dibutuhkan_prediksi_bts",
+            "patterns": [
+                "Apa persyaratan yang dilakukan untuk menggunakan aplikasi Prediksi BTS?",
+                "Apa syarat yang dilakukan untuk menggunakan aplikasi Prediksi BTS?",
+                "Persyaratannya gimana?",
+                "Syaratnya?",
+                "Bagaimana syarat menggunakan aplikasi ini?",
+                "Gunain aplikasi ini ada syaratnya kah?",
+                "Apakah ada syarat untuk menggunakan aplikasi ini?"
+            ],
+            "responses": [
+                "Persyaratan umumnya adalah harus memiliki yaitu data latitude, longitude, dan tinggi tower."
+            ]
+        },
+        {
+            "tag": "kendala_pada_aplikasi_prediksi_bts",
+            "patterns": [
+                "Apa saja kendala pada aplikasi ini?",
+                "Apa saja kekurangan pada aplikasi ini?",
+                "Apa kekurangan dari aplikasi ini?",
+                "Menurut kamu apa kekurangan dari aplikasi ini?",
+                "Apa sih kekurangan aplikasi ini?",
+                "Kekurangan aplikasi ini apa?",
+                "Kekurangan aplikasi ini",
+                "Coba jelaskan kekurangan aplikasi ini?",
+                "Kekurangan aplikasi ini?"
+            ],
+            "responses": [
+                "Kendala pada aplikasi ini biasanya terjadi error atau tidak mengertinya Kasebot dalam menjawab user aplikasi ini",
+                "Kekurangan aplikasi ini adalah terkadang terjadinya pada data latitude dan longitude memberikan data yang akurasi yang tinggi sehingga apa yang terjadi dengan aplikasi dengan google maps tidak sesuai.",
+                "Kekurangan aplikasi ini adalah terkadang terjadinya pada data latitude dan longitude memberikan data yang akurasi yang tinggi sehingga apa yang terjadi dengan aplikasi dengan google maps tidak sesuai."
+            ]
+        },
+        {
+            "tag": "Cara_menggunakan_aplikasi_prediksi_bts",
+            "patterns": [
+                "Apakah Aplikasi ini bisa digunakan untuk memprediksi kota lain?",
+                "Apakah bisa digunakan di daerah lain?",
+                "apa bisa memprediksi di kota lain?",
+                "Menurut kamu aplikasi ini bisa digunakan selain dari wilayah ini ngga?"
+            ],
+            "responses": [
+                "Tidak bisa, aplikasi ini hanya bisa digunakan diwilayah Kota Padang saja."
+            ]
+        },
+        {
+            "tag": "pertanyaan_seputar1_latitude",
+            "patterns": [
+                "Apakah latitude itu?",
+                "latitude?",
+                "Menurut kamu latitude itu apa?",
+                "Apa yang dimaksud dengan latitude?",
+                "Apakah yang dimaksud dengan latitude?",
+                "Jelaskan apa itu latitude?",
+                "Coba jelaskan apa itu latitude",
+                "Coba jelaskan latitude itu apa?"
+            ],
+            "responses": [
+                "Latitude adalah ukuran yang digunakan untuk menentukan posisi relatif suatu titik di permukaan Bumi utara atau selatan terhadap garis khatulistiwa. Secara umum, latitude mengacu pada garis lintang yang mengukur jarak suatu titik dari garis khatulistiwa dalam derajat."
+            ]
+        },
+        {
+            "tag": "pertanyaan_seputar2_latitude",
+            "patterns": [
+                "Guna latitude apa?",
+                "Fungsi Latitude?",
+                "Fungsi dari latitude apa?",
+                "Menurut kamu fungsi latitude apa?",
+                "Coba Jelaskan fungsi latitude itu apa?",
+                "Jelaskan Fungsi latitude",
+                "Kamu tahukan fungsi latitude itu?",
+                "Kamu tau kan fungsi latitude itu?",
+                "Kamu tahu fungsi latitude?"
+
+            ],
+            "responses": [
+                "Latitude memiliki beberapa fungsi yaitu sebagai penentuan lokasi, penentuan zona lokasi, dan penentuan zona waktu."
+            ]
+        },
+        {
+            "tag": "pertanyaan_seputar1_longitude",
+            "patterns": [
+                "Apakah longitude itu?",
+                "longitude?",
+                "Menurut kamu latitude itu apa?",
+                "Apakah yang dimaksud dengan longitude?",
+                "Apa yang dimaksud dengan longitude",
+                "Jelaskan apa itu longitude?",
+                "Coba jelaskan apa itu longitude",
+                "Coba jelaskan longitude itu apa?"
+            ],
+            "responses": [
+                "Longitude adalah ukuran yang digunakan untuk menentukan posisi relatif suatu titik di permukaan Bumi timur atau barat terhadap garis meridian utama, yang dikenal sebagai Garis Bujur Nol atau Prime Meridian. Secara umum, longitude mengacu pada garis bujur yang mengukur jarak suatu titik dari Garis Bujur Nol dalam derajat."
+            ]
+        },
+        {
+            "tag": "pertanyaan_seputar2_longitude",
+            "patterns": [
+                "Guna latitude apa?",
+                "Fungsi Latitude?",
+                "Fungsi dari latitude apa?",
+                "Menurut kamu fungsi latitude apa?",
+                "Coba Jelaskan fungsi latitude itu apa?",
+                "Jelaskan Fungsi latitude",
+                "Kamu tahukan fungsi latitude itu?",
+                "Kamu tau kan fungsi latitude itu?",
+                "Kamu tahu fungsi latitude?"
+            ],
+            "responses": [
+                "Longitude memiliki beberapa fungsi yaitu sebagai penentuan lokasi, penentuan zona lokasi, dan penentuan zona waktu."
+            ]
+        },
+        {
+            "tag": "pertanyaan_seputar1_direction_bts",
+            "patterns": [
+                "Apakah Direction itu?",
+                "Direction?",
+                "Menurut kamu Direction itu apa?",
+                "Apa yang dimaksud dengan Direction BTS?",
+                "Apakah yang dimaksud dengan Direction?",
+                "Jelaskan apa itu Direction?",
+                "Coba jelaskan apa itu Direction",
+                "Coba jelaskan Direction itu apa?"
+            ],
+            "responses": [
+                "Direction adalah arah pancaran dari antena tower atau BTS yang dapat diatur untuk mencakup area tertentu. Direction dalam BTS bisa dikatakan pengaturan arah antena untuk mengirimkan sinyalnya untuk mencakup daerah tertentu."
+            ]
+        },
+        {
+            "tag": "pertanyaan_seputar2_direction_bts",
+            "patterns": [
+                "Guna direction apa?",
+                "Fungsi direction?",
+                "Fungsi dari direction apa?",
+                "Menurut kamu fungsi direction apa?",
+                "Coba Jelaskan fungsi direction itu apa?",
+                "Jelaskan Fungsi direction",
+                "Kamu tahukan fungsi direction itu?",
+                "Kamu tau kan fungsi direction itu?",
+                "Kamu tahu fungsi direction?"
+            ],
+            "responses": [
+                "Direction berfungsi sebagai arah antena untuk sinyalnya mencakup ke daerah tertentu."
+            ]
+        },
+        {
+            "tag": "pertanyaan_seputar1_cell_type_bts",
+            "patterns": [
+                "Apakah cell type itu?",
+                "Cell?",
+                "Cell type?",
+                "Menurut kamu cell type itu apa?",
+                "Apa yang dimaksud dengan cell type?",
+                "Apakah yang dimaksud dengan cell type?",
+                "Jelaskan apa itu cell type?",
+                "Coba jelaskan apa itu cell type",
+                "Coba jelaskan cell type itu apa?",
+                "Apakah sel itu?",
+                "Sel?",
+                "Menurut kamu Sel itu apa?",
+                "Apa yang dimaksud dengan Sel BTS?",
+                "Apakah yang dimaksud dengan Sel?",
+                "Jelaskan apa itu sel?",
+                "Coba jelaskan apa itu sel",
+                "Coba jelaskan sel itu apa?"
+            ],
+            "responses": [
+                "Cell type atau sel adalah klasifikasi atau jenis sel yang digunakan dalam jaringan seluler. Setiap jenis sel memiliki karakteristik dan cakupan yang berbeda untuk memenuhi kebutuhan jaringan dalam berbagai lingkungan dan kondisi."
+            ]
+        },
+        {
+            "tag": "pertanyaan_seputar2_cell_type_bts",
+            "patterns": [
+                "jelaskan macam-macam cell type?",
+                "sebutkan tipe-tipe cell type?",
+                "apa saja cell type ?",
+                "Menurut kamu jelaskan macam-macam cell type?",
+                "Coba Jelaskan tipe cell type itu apa?",
+                "Jelaskan macam-macam sel?",
+                "Sebutkan tipe-tipe sel pada BTS?",
+                "apa saja tipe sel?",
+                "Menurut kamu jelaskan macam-macam sel?",
+                "Klasifikasikan tipe sel BTS ini",
+                "Coba klasifikasikan sel ini",
+                "Coba klasifikasikan cell type ini"
+            ],
+            "responses": [
+                "Cell type atau sel memiliki 4 jenis tipe. Pertama Macro Cell, Macro cell adalah jenis cell yang digunakan untuk layanan seluler diarea luas seperti perkotaan, perdesaan, pedestrian. Kedua Micro Cell, Micro cell adalah memiliki cakupan yang lebih terbatas seperti tempat tinggi pusat kota, pusat perbelanjaan dll. Ketiga Pico Cell, pico cell adalah memiliki cakupan lebih kecil dari micro cell seperti bandara, hotel, mall dll, dan terakhir Femto Cell, femto cell adalah cell yang memiliki cakupan paling kecil dari semua cell, dan biasanya digunakan untuk rumah atau kantor, cell ini biasanya digunakan unuk indivindu"
+            ]
+        },
+        {
+            "tag": "pertanyaan_random1_aplikasi_prediksi_bts",
+            "patterns": [
+                "Apa Kasebot bisa makan?",
+                "Apa kamu bisa hidup?",
+                "Apa Kasebot Bisa hidup?",
+                "Kamu hidup"
+            ],
+            "responses": [
+                "Menurut kamu? Hehe",
+                "Aku sudah hidup lho."
+            ]
+        },
+        {
+            "tag": "pertanyaan_random2_aplikasi_prediksi_bts",
+            "patterns": [
+                "Apa kamu bisa mati?",
+                "Kamu bisa mati?"
+            ],
+            "responses": [
+                "Aku bisa mati kalau ada yang matiin aku Hehe."
+            ]
+        },
+        {
+            "tag": "pertanyaan_random3_aplikasi_prediksi_bts",
+            "patterns": [
+                "apakah tower bisa diletakkan digunung?",
+                "apakah tower bisa diletakkan tempaat ekstrim?",
+                "Apakah BTS bisa diletakkan digunung",
+                "Apakah BTS bisa diletakkan digunung"
+            ],
+            "responses": [
+                "Bisa dan biayanya termasuk mahal"
+            ]
+        }
+    ]
+}

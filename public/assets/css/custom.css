@@ -150,6 +150,7 @@
 .msger-input {
     flex: 1;
     background: #fff;
+    color: #000;
 }
 
 .msg-text {
