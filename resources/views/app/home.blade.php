@@ -163,7 +163,7 @@
 				<div class="row">
 					<div class="col-xl-10 col-lg-11 col-md-10 ms-auto">
 						<div class="owl-carousel" data-dots="false" data-items="3" data-md-items="2" data-sm-items="1"
-							data-autoplay="false">
+							data-autoplay="true">
 							<div class="item">
 								<div class="team-member style-1">
 									<div class="team-images">
@@ -193,20 +193,6 @@
 								<div class="team-member style-1">
 									<div class="team-images">
 										<img class="img-fluid rounded box-shadow" src="assets/images/team/03.jpg" alt="">
-										<div class="social-icons social-colored circle team-social-icon">
-											<ul>
-												<li class="social-github">
-													<a href="https://github.com/rheznendra" target="blank">
-														<i class="fab fa-github"></i>
-													</a>
-												</li>
-												<li class="social-linkedin">
-													<a href="https://www.linkedin.com/in/rheznendra/" target="blank">
-														<i class="fab fa-linkedin-in"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
 									</div>
 									<div class="team-description">
 										<span>Chatbot Developer</span>
@@ -218,20 +204,6 @@
 								<div class="team-member style-1">
 									<div class="team-images">
 										<img class="img-fluid rounded box-shadow" src="assets/images/team/02.jpg" alt="">
-										<div class="social-icons social-colored circle team-social-icon">
-											<ul>
-												<li class="social-github">
-													<a href="https://github.com/rheznendra" target="blank">
-														<i class="fab fa-github"></i>
-													</a>
-												</li>
-												<li class="social-linkedin">
-													<a href="https://www.linkedin.com/in/rheznendra/" target="blank">
-														<i class="fab fa-linkedin-in"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
 									</div>
 									<div class="team-description">
 										<span>Member</span>
@@ -243,20 +215,6 @@
 								<div class="team-member style-1">
 									<div class="team-images">
 										<img class="img-fluid rounded box-shadow" src="assets/images/team/04.jpg" alt="">
-										<div class="social-icons social-colored circle team-social-icon">
-											<ul>
-												<li class="social-github">
-													<a href="https://github.com/rheznendra" target="blank">
-														<i class="fab fa-github"></i>
-													</a>
-												</li>
-												<li class="social-linkedin">
-													<a href="https://www.linkedin.com/in/rheznendra/" target="blank">
-														<i class="fab fa-linkedin-in"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
 									</div>
 									<div class="team-description">
 										<span>Member</span>
@@ -268,20 +226,6 @@
 								<div class="team-member style-1">
 									<div class="team-images">
 										<img class="img-fluid rounded box-shadow" src="assets/images/team/05.jpg" alt="">
-										<div class="social-icons social-colored circle team-social-icon">
-											<ul>
-												<li class="social-github">
-													<a href="https://github.com/rheznendra" target="blank">
-														<i class="fab fa-github"></i>
-													</a>
-												</li>
-												<li class="social-linkedin">
-													<a href="https://www.linkedin.com/in/rheznendra/" target="blank">
-														<i class="fab fa-linkedin-in"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
 									</div>
 									<div class="team-description">
 										<span>Member</span>
