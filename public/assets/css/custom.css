@@ -188,3 +188,18 @@
 #map {
     height: 300px;
 }
+
+.owl-carousel .owl-stage {
+    display: flex;
+}
+
+.item {
+    display: flex;
+    flex: 1 0 auto;
+    height: 100%;
+}
+
+.owl-carousel .owl-item img {
+    min-height: 500px;
+    object-fit: cover;
+}

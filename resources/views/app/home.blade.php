@@ -163,7 +163,7 @@
 				<div class="row">
 					<div class="col-xl-10 col-lg-11 col-md-10 ms-auto">
 						<div class="owl-carousel" data-dots="false" data-items="3" data-md-items="2" data-sm-items="1"
-							data-autoplay="true">
+							data-autoplay="false">
 							<div class="item">
 								<div class="team-member style-1">
 									<div class="team-images">
@@ -192,7 +192,7 @@
 							<div class="item">
 								<div class="team-member style-1">
 									<div class="team-images">
-										<img class="img-fluid rounded box-shadow" src="assets/images/team/01.jpg" alt="">
+										<img class="img-fluid rounded box-shadow" src="assets/images/team/03.jpg" alt="">
 										<div class="social-icons social-colored circle team-social-icon">
 											<ul>
 												<li class="social-github">
@@ -217,7 +217,7 @@
 							<div class="item">
 								<div class="team-member style-1">
 									<div class="team-images">
-										<img class="img-fluid rounded box-shadow" src="assets/images/team/01.jpg" alt="">
+										<img class="img-fluid rounded box-shadow" src="assets/images/team/02.jpg" alt="">
 										<div class="social-icons social-colored circle team-social-icon">
 											<ul>
 												<li class="social-github">
@@ -242,7 +242,7 @@
 							<div class="item">
 								<div class="team-member style-1">
 									<div class="team-images">
-										<img class="img-fluid rounded box-shadow" src="assets/images/team/01.jpg" alt="">
+										<img class="img-fluid rounded box-shadow" src="assets/images/team/04.jpg" alt="">
 										<div class="social-icons social-colored circle team-social-icon">
 											<ul>
 												<li class="social-github">
@@ -267,7 +267,7 @@
 							<div class="item">
 								<div class="team-member style-1">
 									<div class="team-images">
-										<img class="img-fluid rounded box-shadow" src="assets/images/team/01.jpg" alt="">
+										<img class="img-fluid rounded box-shadow" src="assets/images/team/05.jpg" alt="">
 										<div class="social-icons social-colored circle team-social-icon">
 											<ul>
 												<li class="social-github">
