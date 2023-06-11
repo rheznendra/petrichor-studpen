@@ -59,8 +59,8 @@
 		const msgerChat = $(".msger-chat");
 
 		// Icons made by Freepik from www.flaticon.com
-		const BOT_IMG = "/static/images/kadekbot.png";
-		const PERSON_IMG = "/static/images/user.png";
+		const BOT_IMG = "{{ asset('assets/images/chatbot_240px.png') }}";
+		const PERSON_IMG = "{{ asset('assets/images/person_240px.png') }}";
 		const BOT_NAME = "Petribo";
 		const PERSON_NAME = "You";
 
