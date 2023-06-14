@@ -64,7 +64,7 @@
 							href="https://drive.google.com/file/d/1AY63ZdcRWiz45XJm_SKu-rljcgHGWJ1-/view?usp=sharing" target="_blank">
 							<span>D</span><span>a</span><span>t</span><span>a</span><span>s</span><span>e</span><span>t</span>
 						</a>
-						<a class="btn btn-theme btn-circle" data-text="Predict" href="bts.html" target="_blank">
+						<a class="btn btn-theme btn-circle" data-text="Predict" href="{{ route('bts') }}" target="_blank">
 							<span>P</span><span>r</span><span>e</span><span>d</span><span>i</span><span>c</span><span>t</span>
 						</a>
 					</div>
@@ -206,7 +206,7 @@
 										<img class="img-fluid rounded box-shadow" src="assets/images/team/02.jpg" alt="">
 									</div>
 									<div class="team-description">
-										<span>Member</span>
+										<span>Data Aquisition</span>
 										<h5>Siti Nur Anisa</h5>
 									</div>
 								</div>
@@ -217,7 +217,7 @@
 										<img class="img-fluid rounded box-shadow" src="assets/images/team/04.jpg" alt="">
 									</div>
 									<div class="team-description">
-										<span>Member</span>
+										<span>Data Aquisition</span>
 										<h5>Lefenia Indriani</h5>
 									</div>
 								</div>
