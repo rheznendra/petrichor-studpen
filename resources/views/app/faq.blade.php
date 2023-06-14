@@ -30,7 +30,7 @@
 												<div class="now">Now</div>
 											</div>
 											<div class="msg-text">
-												👋 Hello, how can i help you?
+												👋 Halo, ada yang bisa dibantu?
 											</div>
 										</div>
 									</div>
