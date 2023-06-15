@@ -206,7 +206,7 @@
 										<img class="img-fluid rounded box-shadow" src="assets/images/team/02.jpg" alt="">
 									</div>
 									<div class="team-description">
-										<span>Data Aquisition</span>
+										<span>Data Acquisition</span>
 										<h5>Siti Nur Anisa</h5>
 									</div>
 								</div>
@@ -217,7 +217,7 @@
 										<img class="img-fluid rounded box-shadow" src="assets/images/team/04.jpg" alt="">
 									</div>
 									<div class="team-description">
-										<span>Data Aquisition</span>
+										<span>Data Acquisition</span>
 										<h5>Lefenia Indriani</h5>
 									</div>
 								</div>
